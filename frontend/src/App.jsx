@@ -11,6 +11,7 @@ import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import FindYourSilk from './pages/FindYourSilk'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/orders' element = {<Orders></Orders>}></Route>
         <Route path='/find-your-silk' element= {<FindYourSilk></FindYourSilk>}></Route>
       </Routes>
+      <Footer/>
     </div>
   )
 }
